@@ -3,56 +3,80 @@
 <head>
   <meta charset="UTF-8">
   <title>Cap Shop</title>
-  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
   <header>
     <h1>Cap Shop</h1>
     <nav>
       <a href="#inicio">Inicio</a>
+      <a href="#mision">Misión</a>
+      <a href="#vision">Visión</a>
+      <a href="#objetivos">Objetivos</a>
       <a href="#catalogo">Catálogo</a>
       <a href="#contacto">Contacto</a>
     </nav>
   </header>
 
   <main>
-    <!-- Sección Inicio -->
+    <!-- Inicio -->
     <section id="inicio">
       <h2>Bienvenido a Cap Shop</h2>
       <p>Tu tienda de gorras favoritas.</p>
     </section>
 
-    <!-- Sección Catálogo -->
+    <!-- Misión -->
+    <section id="mision">
+      <h2>📌 Misión</h2>
+      <p>Crear gorras originales a partir de gorras reutilizadas, combinando creatividad, estilo y conciencia ambiental.</p>
+    </section>
+
+    <!-- Visión -->
+    <section id="vision">
+      <h2>🌟 Visión</h2>
+      <p>Convertirnos en una marca reconocida en Soacha por dar una segunda vida a las gorras, destacando por creatividad y compromiso ambiental.</p>
+    </section>
+
+    <!-- Objetivos -->
+    <section id="objetivos">
+      <h2>🎯 Objetivos</h2>
+      <ul>
+        <li>Diseñar un proceso eficiente para reacondicionar gorras.</li>
+        <li>Implementar técnicas de limpieza y personalización.</li>
+        <li>Analizar impacto ambiental y social.</li>
+        <li>Identificar público objetivo y preferencias.</li>
+        <li>Evaluar viabilidad económica del proyecto.</li>
+      </ul>
+    </section>
+
+    <!-- Catálogo -->
     <section id="catalogo">
       <h2>Catálogo</h2>
-
-      <!-- Producto Gorra personalizada -->
       <div class="producto">
         <h3>🧢 Gorra personalizada</h3>
-        <img src="gorra.png" alt="Gorra personalizada" class="imagen-producto">
-        <p>Diseños únicos con bordados, estampados o parches. Ajuste cómodo y estilo urbano.</p>
+        <img src="imagen/gorra.png" alt="Gorra personalizada" class="imagen-producto">
+        <p>Diseños únicos con bordados, estampados o parches.</p>
         <p class="precio">$40.000 COP</p>
         <button class="btn-comprar">Comprar</button>
       </div>
     </section>
 
-    <!-- Sección Contacto -->
+    <!-- Contacto -->
     <section id="contacto">
       <h2>Contáctanos</h2>
       <p>📧 Email: capshop@gmail.com</p>
       <p>📞 Teléfono: +57 300 123 4567</p>
       <p>📍 Dirección: Soacha, Cundinamarca</p>
-
       <form>
         <label for="nombre">Nombre:</label>
         <input type="text" id="nombre" name="nombre" required>
-
         <label for="mensaje">Mensaje:</label>
         <textarea id="mensaje" name="mensaje" required></textarea>
-
         <button type="submit">Enviar</button>
       </form>
     </section>
   </main>
+
+  <script src="script.js"></script>
 </body>
 </html>
